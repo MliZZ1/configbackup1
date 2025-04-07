@@ -6,7 +6,7 @@ htop
 hyprland
 hyprpaper
 neofetch
-neovim + lazyvim
+neovim
 spotify
 spotify_player
 waybar
