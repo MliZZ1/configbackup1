@@ -1,6 +1,6 @@
 package list
 -------
-kitty or alacritty.
+kitty
 cava
 htop
 hyprland
