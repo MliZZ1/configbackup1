@@ -1,0 +1,12 @@
+audio.equalizer.high_shelf_gain_v2=536870912
+audio.equalizer.low_mid_peak_gain_v2=-178956971
+audio.equalizer.low_peak_gain_v2=268435456
+audio.equalizer_v2=true
+audio.equalizer.high_mid_peak_gain_v2=-178956971
+audio.play_bitrate_non_metered_migrated=true
+audio.crossfade_v2=true
+connect.dial_devices="[]"
+connect.mdns_devices="[{\"created_timestamp\":1743962993,\"device_id\":\"c80dcf5849c840a706d05512ad72a528d702955e\",\"device_info\":{\"addresses\":[\"192.168.20.37\"],\"availability\":\"any\",\"brand_display_name\":\"Sonos\",\"client_id\":\"9b377073ea334637b1406f329ce005de\",\"device_type\":\"speaker\",\"get_info_json\":\"{\\\"status\\\":101,\\\"statusString\\\":\\\"OK\\\",\\\"spotifyError\\\":0,\\\"version\\\":\\\"2.9.0\\\",\\\"deviceID\\\":\\\"c80dcf5849c840a706d05512ad72a528d702955e\\\",\\\"publicKey\\\":\\\"Ra20ENgxJ3o2S6w6qIkRvGTB8rjlNvcuA3Kj4Ntt9nU5j3ch7qq3mXGK3AoJowtowMa3C7cere3eF36YEOdnQQW4dQ0QVeoznUIdJSz1xIPgvJEiAQ8xZgdtPZWIrkMM\\\",\\\"deviceType\\\":\\\"SPEAKER\\\",\\\"libraryVersion\\\":\\\"3.205.205-gd0f06121\\\",\\\"resolverVersion\\\":\\\"0\\\",\\\"groupStatus\\\":\\\"NONE\\\",\\\"tokenType\\\":\\\"authorization_code\\\",\\\"clientID\\\":\\\"9b377073ea334637b1406f329ce005de\\\",\\\"productID\\\":1219,\\\"scope\\\":\\\"streaming\\\",\\\"availability\\\":\\\"\\\",\\\"supported_drm_media_formats\\\":[{\\\"drm\\\":1,\\\"formats\\\":65606}],\\\"supported_capabilities\\\":11,\\\"modelDisplayName\\\":\\\"Move\\\",\\\"brandDisplayName\\\":\\\"Sonos\\\",\\\"remoteName\\\":\\\"Sonos Move\\\"}\",\"group_status\":\"NONE\",\"is_group\":false,\"library_version\":\"3.205.205-gd0f06121\",\"model_display_name\":\"Move\",\"product_id\":\"1219\",\"resolver_version\":\"0\",\"scope\":\"streaming\",\"should_send_wol\":false,\"token_type\":\"authorization_code\"},\"discovery_name\":\"sonosRINCON_542A1B7DBD9A01400._spotify-connect._tcp.local\",\"display_name\":\"Sonos Move\",\"hostname\":\"Sonos-542A1B7DBD9A.local\",\"last_seen\":1743963017,\"page_uri\":\"/spotifyzc\",\"port\":1400,\"public_ip\":\"2.248.152.57\",\"required_device_info\":{\"public_key\":\"Ra20ENgxJ3o2S6w6qIkRvGTB8rjlNvcuA3Kj4Ntt9nU5j3ch7qq3mXGK3AoJowtowMa3C7cere3eF36YEOdnQQW4dQ0QVeoznUIdJSz1xIPgvJEiAQ8xZgdtPZWIrkMM\",\"remote_name\":\"Sonos Move\",\"version\":\"2.9.0\"},\"ttl\":120,\"txt_records\":{\"CPath\":\"/spotifyzc\",\"VERSION\":\"1\"},\"verified_ip_idx\":0}]"
+audio.equalizer.high_peak_gain_v2=268435456
+audio.crossfade.time_v2=6750
+audio.equalizer.low_shelf_gain_v2=760567125

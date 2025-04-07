@@ -1,0 +1,83 @@
+* {
+  font-family: "FiraCode", monospace;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ebdbb2;
+  background-color: #282828;
+  border: none;
+  border-radius: 10px;
+}
+
+
+
+window {
+  background-color: #282828;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* THICKER BAR */
+#bar {
+  min-height: 36px; /* Change to desired thickness */
+}
+/* Remove hover effect on workspace buttons */
+
+/* SHARED MODULE STYLES */
+#clock,
+#cpu,
+#memory,
+#temperature,
+#network,
+#disk,
+#wireplumber,
+#custom-spotify,
+#workspaces,
+#window,
+#mode {
+  padding: 0 6px; /* Controls width of each module */
+  margin: 0 2px;  /* Add slight spacing between modules */
+  background-color: #282828;
+  border-radius: 4px;
+}
+
+/* Colors per module */
+#clock       { color: #fabd2f; }
+#cpu         { color: #fe8019; }
+#memory      { color: #b8bb26; }
+#temperature { color: #fb4934; }
+#network     { color: #83a598; }
+#disk        { color: #8ec07c; }
+#wireplumber { color: #d3869b; }
+#custom-spotify { color: #b8bb26; }
+#mode        { color: #d3869b; }
+#window      { color: #ebdbb2; }
+
+/* Workspaces */
+#workspaces {
+  background-color: #282828;
+  padding: 0 5px;
+}
+
+#workspaces button {
+  color: #ebdbb2;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background: transparent;
+  padding: 0 6px;
+  margin: 0 1px;
+  border: none;
+}
+
+#workspaces button.focused {
+  color: #282828;
+  background: #fabd2f;
+}
+
+#workspaces button:hover {
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  color: #ebdbb2;
+}

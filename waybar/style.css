@@ -1,0 +1,94 @@
+* {
+  font-family: "FiraCode SemiBold", "Font Awesome 6 Free";
+  font-size: 15px;
+  border: none;
+  box-shadow: none;
+}
+
+window#waybar {
+  background: #3B4252;
+  color: #D8DEE9; /* nord4 */
+  border-radius: 12px;
+  margin: 5px; 
+}
+
+#workspaces button {
+  color: #D8DEE9;
+  background: transparent;
+  border-radius: 0;
+  padding: 0 10px;
+}
+
+#workspaces button.focused {
+  background: #5E81AC; /* nord10 */
+  color: #ECEFF4;
+}
+
+#workspaces button:hover {
+  background: #434C5E; /* nord3 */
+  color: #ECEFF4;
+  border-radius: 12px;
+}
+
+/* Module icons color adjustments */
+#clock {
+  color: #81A1C1; /* nord8 (blueish) */
+}
+
+#cpu {
+  color: #EBCB8B; /* nord3 (yellow) */
+}
+
+#network {
+  color: #88C0D0; /* nord6 (cyan) */
+}
+
+#memory {
+  color: #A3BE8C; /* nord2 (green) */
+}
+
+#disk {
+  color: #D08770; /* nord9 (orange) */
+}
+
+#temperature {
+  color: #BF616A; /* nord1 (red) */
+}
+
+#wireplumber {
+  color: #B48EAD; /* nord5 (purple) */
+}
+
+#custom-spotify {
+  color: #A3BE8C; /* nord2 (green) */
+}
+
+#custom-spotify.playing {
+  color: #A3BE8C; /* nord2 (green) */
+}
+
+
+/* Add spacing between modules */
+#clock,
+#cpu,
+#network,
+#memory,
+#disk,
+#temperature,
+#wireplumber,
+#custom-spotify {
+  margin-right: 10px; /* Space between modules */
+  padding: 0 5px;     /* Internal padding within each module */
+}
+
+/* If you want icons to change color on hover */
+#clock:hover .icon,
+#cpu:hover .icon,
+#network:hover .icon,
+#memory:hover .icon,
+#disk:hover .icon,
+#temperature:hover .icon,
+#wireplumber:hover .icon,
+#custom-spotify:hover .icon {
+  color: #ECEFF4; /* White color on hover */
+}

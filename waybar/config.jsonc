@@ -1,0 +1,79 @@
+{
+  "position": "none",     
+  "width": "2540",        
+  "height": 30,           
+  "margin": 7,
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock", "hyprland/window"],
+  "modules-right": [
+    "network",
+    "cpu",
+    "disk",
+    "wireplumber",
+    "memory",
+    "custom/spotify"
+  ],
+
+  "hyprland/window": {
+    "max-length": 50
+  },
+
+  "clock": {
+    "format-alt": "{:%a, %d. %b  %H:%M}"
+  },
+
+
+"network": {
+  "interface": "enp6s0",
+  "format-wifi": "{essid} ({signalStrength}%) ",
+  "format-ethernet": "",  
+  "format-disconnected": "⚠ Disconnected",
+  "tooltip-format": "{ifname} via {gwaddr}",
+  "tooltip-format-wifi": "{essid} ({signalStrength}%) \n{ipaddr}",
+  "tooltip-format-ethernet": "{ifname} \n{ipaddr}",
+  "tooltip-format-disconnected": "No network connection",
+  "interval": 5
+},
+ 
+
+  "cpu": {
+    "format": "{icon0} {icon1} {icon2} {icon3} {icon4} {icon5} {icon6} {icon7}",
+    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
+  },
+
+
+  "disk": {
+    "interval": 30,
+    "path": "/",
+    "unit": "GB",
+    "format": "{specific_free:0.2f} GB free of {specific_total:0.2f} GB ({percentage_free}% remaining)"
+  },
+
+  "wireplumber": {
+    "format": "{volume}% {icon}",
+    "format-muted": "",
+    "on-click": "helvum",
+    "format-icons": ["", "", ""]
+  },
+
+  "memory": {
+    "interval": 30,
+    "format": "{}% ",
+    "max-length": 10
+  },
+
+  "custom/spotify": {
+    "format": "{icon} {}",
+    "escape": true,
+    "return-type": "json",
+    "max-length": 40,
+    "interval": 30, // Remove this if your script is endless
+    "on-click": "playerctl -p spotify play-pause",
+    "on-click-right": "killall spotify",
+    "smooth-scrolling-threshold": 10, // Lower if using a mouse
+    "on-scroll-up": "playerctl -p spotify next",
+    "on-scroll-down": "playerctl -p spotify previous",
+    "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null",
+    "exec-if": "pgrep spotify"
+  }
+}

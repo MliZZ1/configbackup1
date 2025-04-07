@@ -1,0 +1,95 @@
+[window]
+opacity = 0.6
+padding = { x = 5, y = 5 }
+decorations = "Full"
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[general]
+live_config_reload = true
+
+[[colors.indexed_colors]]
+color = "0xf78c6c"
+index = 16
+
+[[colors.indexed_colors]]
+color = "0xff5370"
+index = 17
+
+[[colors.indexed_colors]]
+color = "0x303030"
+index = 18
+
+[[colors.indexed_colors]]
+color = "0x353535"
+index = 19
+
+[[colors.indexed_colors]]
+color = "0xb2ccd6"
+index = 20
+
+[[colors.indexed_colors]]
+color = "0xeeffff"
+index = 21
+
+[colors.bright]
+black = "0x4a4a4a"
+blue = "0x82aaff"
+cyan = "0x89ddff"
+green = "0xc3e88d"
+magenta = "0xc792ea"
+red = "0xf07178"
+white = "0xffffff"
+yellow = "0xffcb6b"
+
+[colors.cursor]
+cursor = "0xeeffff"
+text = "0x212121"
+
+[colors.normal]
+black = "0x000000"
+blue = "0x0000FF"
+cyan = "0x00FFFF"
+green = "0x00FF00"
+magenta = "0xFF00FF"
+red = "0xFF0000"
+white = "0xFFFFFF"
+yellow = "0xFFFF00"
+
+[colors.primary]
+background = "0x000000"
+foreground = "0x00FF00"
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 13
+
+[font.bold]
+family = "Firacode SemiBold"
+
+[font.bold_italic]
+family = "Firacode"
+
+[font.italic]
+family = "Firacode"
+
+[font.normal]
+family = "Firacode Medium"
+
+
+
+[keyboard]

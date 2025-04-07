@@ -1,0 +1,96 @@
+[window]
+opacity = 0.58
+padding = { x = 5, y = 5 }
+decorations = "Full"
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[general]
+live_config_reload = true
+
+[[colors.indexed_colors]]
+color = "0xfb4934"  # Gruvbox Red
+index = 16
+
+[[colors.indexed_colors]]
+color = "0xfe8019"  # Gruvbox Orange
+index = 17
+
+[[colors.indexed_colors]]
+color = "0x282828"  # Gruvbox Dark Background
+index = 18
+
+[[colors.indexed_colors]]
+color = "0x3c3836"  # Gruvbox Darker Background
+index = 19
+
+[[colors.indexed_colors]]
+color = "0xb8bb26"  # Gruvbox Green
+index = 20
+
+[[colors.indexed_colors]]
+color = "0xebdbb2"  # Gruvbox Light Foreground
+index = 21
+
+[colors.bright]
+black = "0x000000"  # Gruvbox Dark Brown
+blue = "0x83a598"   # Gruvbox Blue
+cyan = "0x8ec07c"   # Gruvbox Aqua
+green = "0xb8bb26"  # Gruvbox Green
+magenta = "0xd3869b" # Gruvbox Purple
+red = "0xfb4934"     # Gruvbox Red
+white = "0xebdbb2"   # Gruvbox Light
+yellow = "0xf9e2af"  # Gruvbox Yellow
+
+[colors.cursor]
+cursor = "0xebdbb2"  # Gruvbox Light Foreground
+text = "0x282828"    # Gruvbox Dark Background
+
+[colors.normal]
+black = "0x000000"   # Gruvbox Dark Background
+blue = "0x83a598"    # Gruvbox Blue
+cyan = "0x8ec07c"    # Gruvbox Aqua
+green = "0xb8bb26"   # Gruvbox Green
+magenta = "0xd3869b" # Gruvbox Purple
+red = "0xfb4934"     # Gruvbox Red
+white = "0xebdbb2"   # Gruvbox Light Foreground
+yellow = "0xf9e2af"  # Gruvbox Yellow
+
+[colors.primary]
+background = "0x282828" # Gruvbox Dark Background
+foreground = "0xebdbb2" # Gruvbox Light Foreground
+
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 13
+
+[font.bold]
+family = "Firacode SemiBold"
+
+[font.bold_italic]
+family = "Firacode"
+
+[font.italic]
+family = "Firacode"
+
+[font.normal]
+family = "Firacode Medium"
+
+
+
+[keyboard]
