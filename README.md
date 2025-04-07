@@ -12,6 +12,7 @@ spotify_player
 waybar
 wofi
 yay
+waypaper
 
 
 Use yay for AUR
