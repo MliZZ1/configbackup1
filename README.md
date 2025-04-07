@@ -1,5 +1,5 @@
 package list
-
+-------
 kitty or alacritty.
 cava
 htop
@@ -12,6 +12,6 @@ spotify_player
 waybar
 wofi
 yay
------------------------------------
+
 
 Use yay for AUR
